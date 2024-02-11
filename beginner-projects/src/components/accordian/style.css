@@ -1,9 +1,27 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #614101;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.wrapper button:hover {
+  background-color: #4d3400;
 }
 
 .acccordian {
